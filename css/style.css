@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* HEADER */
+
+.head.container{
+    background-color: rgb(229, 121, 230);
+    height: 100px;
+}
+
+.img{
+    background-color: rgb(225, 214, 122);
+    height: 300px;
+}
+
+.columns{
+    background-color: rgb(0, 136, 250);
+    height: 400px;
+}
+
+.footer.container{
+    background-color: rgb(136, 1, 254);
+    height: 50px;
+}
