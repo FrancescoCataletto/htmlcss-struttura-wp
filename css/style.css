@@ -10,6 +10,23 @@
     clear: both;
 }
 
+.col{
+    float: left;
+
+    /* delete margin when you add content */
+
+    margin: 1% 0;
+
+    /* uncomment padding when u add content */
+
+    /* padding: 15px 0; */
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
 .head.container{
@@ -20,14 +37,56 @@
 .img{
     background-color: rgb(225, 214, 122);
     height: 300px;
+    margin-top: 20px;
 }
 
 .columns{
     background-color: rgb(0, 136, 250);
-    height: 400px;
+    margin-top: 20px;
+}
+
+#second-header{
+    background-color: rgb(171, 207, 231);
+    height: 70px;
+}
+
+.col.col-left{
+    background-color: rgb(171, 207, 231);
+    height: 330px;
+
+    /* delete width and margin-right when you add content */
+
+    width: 19%;
+    margin-right: 1%;
+
+    /* uncomment padding-right and width when you add content */
+
+    /* padding-right: 10px;
+    width: 20%; */
+}
+
+.col.col-middle{
+    background-color: rgb(171, 207, 231);
+    height: 330px;
+    width: 60%;
+}
+
+.col.col-right{
+    background-color: rgb(171, 207, 231);
+    height: 330px;
+
+    /* delete width and margin-left when you add content */
+    width: 19%;
+    margin-left: 1%; 
+
+    /* uncomment padding-left and width when you add content */
+
+    /* padding-left: 10px;
+    width: 20%; */
 }
 
 .footer.container{
     background-color: rgb(136, 1, 254);
     height: 50px;
+    margin-top: 5px;
 }
